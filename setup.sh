@@ -6,3 +6,7 @@ sudo apt-get upgrade
 # Avahi gives service discovery on LAN via the mDNS/DNS-SD
 # connect to pi via $(hostname).local
 sudo apt-get install avahi-daemon
+
+
+# Install docker
+curl -sSL https://get.docker.com | sh
